@@ -1,0 +1,13 @@
+[ignore]
+.*/node_modules
+.*/Pods
+.*/ios
+.*/ios/Pods
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "197565020237",
+    "firebase_url": "https://aktuellistesi.firebaseio.com",
+    "project_id": "aktuellistesi",
+    "storage_bucket": "aktuellistesi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197565020237:android:b827e523ff223457",
+        "android_client_info": {
+          "package_name": "com.peacecwz.aktuellistesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197565020237-3ji3s11ldrepos21h43s9g3u2bbt2d1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcq2vCMMfjwZMoVVRupLdRtn5W-V6in3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

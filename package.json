@@ -1,0 +1,62 @@
+{
+  "name": "AktuelListesi",
+  "version": "1.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "8.1.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "4.14.0",
+    "eslint-plugin-flowtype": "2.40.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "2.4.0",
+    "eslint-plugin-react": "7.5.1",
+    "eslint-plugin-react-native": "3.2.0",
+    "flow-bin": "0.62.0",
+    "flow-typed": "2.2.3",
+    "husky": "0.14.3",
+    "jest-expo": "^24.0.0",
+    "react-test-renderer": "16.2.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "yarn jest && flow && eslint .",
+    "jest": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|lottie-react-native|expo|react-native-maps|react-native-svg|react-native-branch|native-base-shoutem-theme|react-native-easy-grid|react-native-drawer|react-native-vector-icons|react-native-keyboard-aware-scroll-view|react-navigation|native-base|@expo|react-native-scrollable-tab-view)/)"
+    ]
+  },
+  "dependencies": {
+    "@ljharb/eslint-config": "^12.2.1",
+    "appcenter": "^1.1.0",
+    "appcenter-analytics": "^1.1.0",
+    "appcenter-crashes": "^1.1.0",
+    "axios": "^0.17.1",
+    "eslint-config-xo-space": "^0.17.0",
+    "lodash": "4.17.4",
+    "native-base": "2.3.5",
+    "react": "16.2.0",
+    "react-native": "0.52.0",
+    "react-native-admob": "https://github.com/sbugert/react-native-admob",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-img-cache": "^1.5.3",
+    "react-native-indicators": "^0.10.0",
+    "react-native-looped-carousel": "https://github.com/phil-r/react-native-looped-carousel",
+    "react-native-photo-view": "^1.5.2",
+    "react-native-search-box": "^0.0.13",
+    "react-navigation": "1.0.0-beta.21",
+    "react-redux": "5.0.6",
+    "redux": "3.7.2",
+    "redux-form": "7.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.4.0",
+    "redux-thunk": "2.2.0",
+    "remote-redux-devtools": "0.5.0",
+    "remote-redux-devtools-on-debugger": "^0.8.0"
+  }
+}

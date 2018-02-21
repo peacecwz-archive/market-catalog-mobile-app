@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/iOS" "${PODS_ROOT}/AppCenterReactNativeShared/AppCenterReactNativeShared" "${PODS_ROOT}/Google-Mobile-Ads-SDK/Frameworks/frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AppCenter" "${PODS_ROOT}/Headers/Public/AppCenterReactNativeShared" "${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AppCenter" -isystem "${PODS_ROOT}/Headers/Public/AppCenterReactNativeShared" -isystem "${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"sqlite3" -l"z" -framework "AVFoundation" -framework "AppCenter" -framework "AppCenterAnalytics" -framework "AppCenterCrashes" -framework "AppCenterReactNativeShared" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreVideo" -framework "Foundation" -framework "GLKit" -framework "GoogleMobileAds" -framework "MediaPlayer" -framework "MessageUI" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "StoreKit" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "AdSupport" -weak_framework "JavaScriptCore" -weak_framework "SafariServices" -weak_framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
