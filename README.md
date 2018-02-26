@@ -56,6 +56,10 @@ $ pod install
 * [redux-persist](https://github.com/rt2zz/redux-persist) 
 * [redux-thunk](https://github.com/gaearon/redux-thunk) 
 
+### Demo
+
+![Demo](https://barisceviz.blob.core.windows.net/uploads/aktuellistesi-app.gif)
+
 ### Run on iOS
 
  * Opt #1:
