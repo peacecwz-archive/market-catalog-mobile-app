@@ -58,7 +58,7 @@ $ pod install
 
 ### Demo
 
-![Demo](https://barisceviz.blob.core.windows.net/uploads/aktuellistesi-app.gif)
+![Demo](https://github.com/peacecwz/aktuel-listesi-app/blob/master/aktuellistesi-app.gif?raw=true)
 
 ### Run on iOS
 
