@@ -1,5 +1,5 @@
 
-## Aktuel Listesi App v1.0.0
+## Aktuel Listesi App v1
 
 ### [Aktuel Listesi](https://github.com/peacecwz/aktuel-listesi) Apps (iOS & Android)
 
@@ -30,7 +30,31 @@ $ cd aktuel-listesi-app/
 $ npm install
   or
   yarn install
+  
+$ cd ios
+
+$ pod install
 ```
+
+### Dependencies
+
+* [appcenter](https://github.com/Microsoft/AppCenter-SDK-React-Native) 
+* [appcenter-analytics](https://github.com/Microsoft/AppCenter-SDK-React-Native) 
+* [appcenter-crashes](https://github.com/Microsoft/AppCenter-SDK-React-Native) 
+* [axios](https://github.com/axios/axios) 
+* [react-native-admob](https://github.com/sbugert/react-native-admob) 
+* [react-native-fetch-blob](https://github.com/wkh237/react-native-fetch-blob) 
+* [react-native-image-cache](https://github.com/wcandillon/react-native-img-cache) 
+* [react-native-indicators](https://github.com/n4kz/react-native-indicators) 
+* [react-native-looped-carousel](https://github.com/phil-r/react-native-looped-carousel) 
+* [react-native-photo-view](https://github.com/alwx/react-native-photo-view) 
+* [react-native-search-box](https://github.com/agiletechvn/react-native-search-box) 
+* [react-navigation](https://github.com/react-navigation/react-navigation) 
+* [redux](https://github.com/reactjs/redux) 
+* [react-redux](https://github.com/reactjs/react-redux) 
+* [redux-logger](https://github.com/evgenyrodionov/redux-logger) 
+* [redux-persist](https://github.com/rt2zz/redux-persist) 
+* [redux-thunk](https://github.com/gaearon/redux-thunk) 
 
 ### Run on iOS
 
@@ -38,7 +62,7 @@ $ npm install
  	* Run `npm start` in your terminal
 	* Scan the QR code in your Expo app
  * Opt #2:
-	* Run `npm run ios` in your terminal
+	* Run `react-native run-ios` in your terminal
 
 ### Run on Android
 
@@ -46,4 +70,4 @@ $ npm install
 	* Run `npm start` in your terminal
 	* Scan the QR code in your Expo app
   * Opt #2:
-	* Run `npm run android` in your terminal
+	* Run `react-native run-android` in your terminal
