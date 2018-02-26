@@ -1,38 +1,39 @@
 import axios from "axios";
-
-const baseUrl = "https://aktuellistesi.azurewebsites.net";
-const version = "/api/v1";
-const companiesEndpoint = baseUrl + version + "/Companies";
-const latestEndpoint = baseUrl + version + "/App/Latest";
-const aktuelsEndpoint = baseUrl + version + "/Companies/";
-const aktuelPagesEndpoint = baseUrl + version + "/Aktuels/";
-const searchEndpoint = baseUrl + version + "/Aktuels/Search";
-
-const config = {
-  headers: {
-    "Content-Type": "application/json"
-  }
-};
+import Endpoints from "./endpoints";
 
 class API {
+  client = axios.create({
+    baseURL: "https://aktuellistesi.azurewebsites.net",
+    headers: {
+      "Content-Type": "application/json"
+    }
+  });
+  endpoints = new Endpoints("/api/v1");
+
   getCompanies() {
-    return axios.get(companiesEndpoint, config);
+    return this.client.get(this.endpoints.companiesEndpoint);
   }
 
   getLatest() {
-    return axios.get(latestEndpoint, config);
+    return this.client.get(this.endpoints.latestEndpoint);
   }
 
   getAktuels(companyId) {
-    return axios.get(aktuelsEndpoint + companyId + "/aktuels", config);
+    return this.client.get(
+      this.endpoints.aktuelsEndpoint + companyId + "/aktuels"
+    );
   }
 
   getAktuelPages(aktuelId) {
-    return axios.get(aktuelPagesEndpoint + aktuelId + "/aktuelPages", config);
+    return this.client.get(
+      this.endpoints.aktuelPagesEndpoint + aktuelId + "/aktuelPages"
+    );
   }
 
   search(query) {
-    return axios.get(searchEndpoint + "?query=" + query, config);
+    return this.client.get(
+      this.endpoints.searchEndpoint + "?query=" + query
+    );
   }
 }
 
