@@ -58,7 +58,8 @@ $ pod install
 
 ### Demo
 
-![Demo](https://github.com/peacecwz/aktuel-listesi-app/blob/master/aktuellistesi-app.gif?raw=true)
+![Demo](https://github.com/peacecwz/aktuel-listesi-app/blob/master/aktuellistesi-app-ios.gif?raw=true)
+   ![Demo](https://github.com/peacecwz/aktuel-listesi-app/blob/master/aktuellistesi-app-android.gif?raw=true)
 
 ### Run on iOS
 
