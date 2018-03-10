@@ -1,6 +1,8 @@
 
 ## Aktuel Listesi App v1
 
+THis project is smart catalog of shopping centers (It's running in Turkey for now) See new products, campaigns and discounts of shopping centers. You can search in catalogs
+
 ### [Aktuel Listesi](https://github.com/peacecwz/aktuel-listesi) Apps (iOS & Android)
 
 | Android | iOS |
