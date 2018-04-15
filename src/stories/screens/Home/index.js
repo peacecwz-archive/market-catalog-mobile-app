@@ -40,6 +40,7 @@ export default class Home extends React.Component<Props, State> {
                 name="menu"
                 onPress={() => {
                   log("Clicked Menu Button", { Page: "Home" });
+                  admob.showInterstitial();
                   this.props.navigation.navigate("DrawerOpen");
                 }}
               />
@@ -68,6 +69,7 @@ export default class Home extends React.Component<Props, State> {
                     AktuelItemName: item.name,
                     AktuelItemId: item.id
                   });
+                  admob.showInterstitial();
                   this.props.navigation.navigate("AktuelItems", {
                     aktuelId: item.id,
                     aktuelName: item.name
@@ -88,6 +90,7 @@ export default class Home extends React.Component<Props, State> {
                     AktuelName: item.name,
                     AktuelId: item.id
                   });
+                  admob.showInterstitial();
                   this.props.navigation.navigate("Aktuel", {
                     companyId: item.id,
                     companyName: item.name

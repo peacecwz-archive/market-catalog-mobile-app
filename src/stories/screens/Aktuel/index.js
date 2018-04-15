@@ -30,7 +30,13 @@ export default class AktuelPage extends React.Component<Props, State> {
       <Container style={styles.container}>
         <Header>
           <Left>
-            <Button transparent onPress={() => this.props.navigation.goBack()}>
+            <Button
+              transparent
+              onPress={() => {
+                admob.showInterstitial();
+                this.props.navigation.goBack();
+              }}
+            >
               <Icon name="ios-arrow-back" />
             </Button>
           </Left>
@@ -52,6 +58,7 @@ export default class AktuelPage extends React.Component<Props, State> {
                 AktuelItemName: item.name,
                 AktuelItemId: item.id
               });
+              admob.showInterstitial();
               this.props.navigation.navigate("AktuelItems", {
                 aktuelId: item.id,
                 aktuelName: item.name
