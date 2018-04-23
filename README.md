@@ -78,3 +78,12 @@ $ pod install
 	* Scan the QR code in your Expo app
   * Opt #2:
 	* Run `react-native run-android` in your terminal
+
+## Contributing
+
+* If you want to contribute to codes, create pull request
+* If you find any bugs or error, create an issue
+
+## License
+
+This project is licensed under the MIT License
