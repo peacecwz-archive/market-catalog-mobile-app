@@ -10,8 +10,6 @@ This project is smart catalog of shopping centers (It's running in Turkey for no
 | [![Build status](https://build.appcenter.ms/v0.1/apps/5ab44258-f0b5-4bc3-84ba-fca893c38ace/branches/master/badge)](https://appcenter.ms) | [![Build status](https://build.appcenter.ms/v0.1/apps/202a8bca-d76c-45be-8e8d-c6c29888a14e/branches/master/badge)](https://appcenter.ms) |
 |         |     | 
 
-*Brought to you by [PeaceCwz](https://twitter.com/peacecwz)*
-
 ## Get Started
 
 ### 1. System Requirements
@@ -61,7 +59,7 @@ $ pod install
 ### Demo
 
 ![Demo](https://github.com/peacecwz/aktuel-listesi-app/blob/master/aktuellistesi-app-ios.gif?raw=true)
-   ![Demo](https://github.com/peacecwz/aktuel-listesi-app/blob/master/aktuellistesi-app-android.gif?raw=true)
+![Demo](https://github.com/peacecwz/aktuel-listesi-app/blob/master/aktuellistesi-app-android.gif?raw=true)
 
 ### Run on iOS
 
@@ -78,3 +76,12 @@ $ pod install
 	* Scan the QR code in your Expo app
   * Opt #2:
 	* Run `react-native run-android` in your terminal
+
+## Contributing
+
+* If you want to contribute to codes, create pull request
+* If you find any bugs or error, create an issue
+
+## License
+
+This project is licensed under the MIT License
